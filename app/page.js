@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className='bg-gradient-to-b from-[#0a0a0a] to-[#2b2b31]'>
       <Head>
-        <title>Gustav`&apos;`'s Portfolio</title>
+        <title>Gustav&apos;s Portfolio</title>
         <meta name='description' content='Min porfolio ' />
         <link rel='icon' href='/favicon.ico' />
       </Head>

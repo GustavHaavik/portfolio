@@ -10,7 +10,7 @@ function Projects() {
         <p className="text-lx tracking-widest uppercase text-orange-300">
           Projects and Technologies
         </p>
-        <h2 className="py-4 text-white">Few examples of what I`&apos;`'ve made</h2>
+        <h2 className="py-4 text-white">Few examples of what I&apos;ve made</h2>
         <div className="flex lg:flex-row md:flex-wrap flex-col gap-8">
           {projects.map((project) => (
             <Project key="project" {...project} />
