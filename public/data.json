@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Portfolio hjemmeside",
+    "description": "Min officielle hjemmeside, hvor jeg fremviser nogle af de projekter jeg har arbejdet på i årenes løb.",
+    "tags": ["html", "javascript", "react", "next.js", "tailwindcss", "git"],
+    "github_link": "https://github.com/6u5t4v/"
+  },
+  {
+    "title": "Ascii Cam",
+    "description": "En processing applikation som tager kameraet på computer som input og omdanner billede til ascii karaktere ",
+    "tags": ["java", "git", "processing"],
+    "github_link": "https://github.com/6u5t4v/AsciiMovie",
+    "example_link": "https://www.youtube.com/watch?v=x49Xm72Zeys"
+  },
+  {
+    "title": "Dall-E Clone",
+    "description": "En webapp som udnytter openai's billede generation, til at generere billeder ud fra en tekst beskrivelse, som så kan uploades to en mongodb database",
+    "tags": [
+      "html",
+      "javascript",
+      "react",
+      "tailwindcss",
+      "mongodb",
+      "expressjs",
+      "cloudinary"
+    ],
+    "github_link": "https://github.com/6u5t4v/dall-e-clone"
+  },
+  {
+    "title": "Test project 4",
+    "description": "en beskrivelse af projektet og hvordan de forskellige teknologier er brugt",
+    "tags": ["html", "javascript", "react", "next.js", "tailwindcss"],
+    "github_link": "https://github.com/6u5t4v/"
+  }
+]
