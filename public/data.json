@@ -3,7 +3,8 @@
     "title": "Portfolio hjemmeside",
     "description": "Min officielle hjemmeside, hvor jeg fremviser nogle af de projekter jeg har arbejdet på i årenes løb.",
     "tags": ["html", "javascript", "react", "next.js", "tailwindcss", "git"],
-    "github_link": "https://github.com/6u5t4v/"
+    "github_link": "https://github.com/6u5t4v/",
+    "example_link": "https://portfolio-6u5t4v.vercel.app"
   },
   {
     "title": "Ascii Cam",
@@ -25,11 +26,5 @@
       "cloudinary"
     ],
     "github_link": "https://github.com/6u5t4v/dall-e-clone"
-  },
-  {
-    "title": "Test project 4",
-    "description": "en beskrivelse af projektet og hvordan de forskellige teknologier er brugt",
-    "tags": ["html", "javascript", "react", "next.js", "tailwindcss"],
-    "github_link": "https://github.com/6u5t4v/"
   }
 ]
