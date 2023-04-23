@@ -5,6 +5,8 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 
+import { Analytics } from '@vercel/analytics/react';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -25,6 +27,8 @@ export default function Home() {
       <div className='bg-[#0a0a0a] w-full h-auto flex justify-center items-center py-4 mt-10'>
         <p className='text-sm text-white font-bold'>©{year} Portfolio, af Gustav Haavik.</p>
       </div>
+
+      <Analytics />
     </div>
   )
 }
