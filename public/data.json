@@ -25,6 +25,7 @@
       "expressjs",
       "cloudinary"
     ],
-    "github_link": "https://github.com/6u5t4v/dall-e-clone"
+    "github_link": "https://github.com/6u5t4v/dall-e-clone",
+    "example_link": "https://dall-e-clone-frontend-one.vercel.app/"
   }
 ]
