@@ -4,7 +4,7 @@ import projects from "../public/data.json";
 
 function Projects() {
   return (
-    <div id="projects" className="w-full lg:h-screen p-2">
+    <section id="projects" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-lx tracking-widest uppercase text-orange-300">
           Projekter
@@ -16,7 +16,7 @@ function Projects() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

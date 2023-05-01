@@ -11,29 +11,35 @@ export default function Navbar() {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
-    setNav(!nav);
+    setNav((nav) => !nav);
   };
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] bg-[rgba(29,29,31,0.9)] border-b border-[#2c2c2f]">
       <div className="flex justify-center items-center w-full h-full px-2 2xl:px-16">
         {/* <Image src="/next.svg" alt="Logo" width={125} height={50} /> */}
 
-        <div  >
+        <div>
           <ul className="hidden md:flex text-[#f1f1f1]">
-            <Link href="/" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">Hjem</li>
-            </Link>
-            <Link href="#about_me" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">Om mig</li>
-            </Link>
-            <Link href="#projects" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">Projekter</li>
-            </Link>
-            <Link href="/" scroll={false}>
+            <a href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">
+                Hjem
+              </li>
+            </a>
+            <a href="#about_me">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">
+                Om mig
+              </li>
+            </a>
+            <a href="#projects">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">
+                Projekter
+              </li>
+            </a>
+            <a href="/">
               <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">
                 Kontakt
               </li>
-            </Link>
+            </a>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -41,7 +47,9 @@ export default function Navbar() {
         </div>
       </div>
       <div
-        className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
+        className={
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+        }
       >
         <div
           className={

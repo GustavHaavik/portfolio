@@ -24,7 +24,7 @@ const Project = ({ title, description, tags, github_link, example_link }) => {
   }
 
   return (
-    <div className="bg-gray-800 p-6 w-[350px] h-auto shadow-lg border-2 border-gray-700 flex flex-col">
+    <div className="bg-gray-800 p-6 w-[350px] h-auto shadow-lg border-2 border-gray-700 flex flex-col rounded-md">
       <div className="flex justify-between text-gray-500">
         <AiOutlineFolder size={25} />
         {mediaLinks}

@@ -14,7 +14,7 @@ function About() {
   }
 
   return (
-    <div
+    <section
       id="about_me"
       className="w-full md:h-screen p-2 flex items-center py-16"
     >
@@ -58,7 +58,7 @@ function About() {
           <Image src="/pb.png" alt="Logo" width={500} height={500} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
