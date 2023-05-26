@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Main() {
   var hour = new Date().getHours();
@@ -23,18 +24,27 @@ export default function Main() {
             Software Udvikler
           </h1>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
-            <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn color="#2c2c2f" />
-            </div>
-            <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
-              <FaGithub color="#2c2c2f" />
-            </div>
-            <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
-              <AiOutlineMail color="#2c2c2f" />
-            </div>
-            <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill color="#2c2c2f" />
-            </div>
+            <Link target="_black" href="https://www.linkedin.com/in/gustavhaavik/">
+              <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn color="#2c2c2f" />
+              </div>{" "}
+            </Link>
+
+            <Link target="_black" href="https://github.com/6u5t4v">
+              <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
+                <FaGithub color="#2c2c2f" />
+              </div>
+            </Link>
+            <Link target="_black" href="gkhaavik@gmail.com">
+              <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
+                <AiOutlineMail color="#2c2c2f" />
+              </div>
+            </Link>
+            <Link target="_black" href="/Contact">
+              <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill color="#2c2c2f" />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ export default function Navbar() {
                 Projekter
               </li>
             </a>
-            <a href="/">
+            <a href="/contact">
               <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">
                 Kontakt
               </li>
