@@ -12,7 +12,7 @@ function Projects() {
         <h2 className="py-4 text-white">Lidt af hvad jeg har lavet</h2>
         <div className="flex lg:flex-row md:flex-wrap flex-col gap-8">
           {projects.map((project) => (
-            <Project key="project" {...project} />
+            <Project key={project.title} {...project} />
           ))}
         </div>
       </div>
