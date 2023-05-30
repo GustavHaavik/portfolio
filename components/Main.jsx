@@ -24,18 +24,21 @@ export default function Main() {
             Software Udvikler
           </h1>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
-            <Link target="_black" href="https://www.linkedin.com/in/gustavhaavik/">
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/gustavhaavik/"
+            >
               <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn color="#2c2c2f" />
               </div>{" "}
             </Link>
 
-            <Link target="_black" href="https://github.com/6u5t4v">
+            <Link target="_blank" href="https://github.com/6u5t4v">
               <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
                 <FaGithub color="#2c2c2f" />
               </div>
             </Link>
-            <Link target="_black" href="gkhaavik@gmail.com">
+            <Link target="_blank" href="mailto:gkhaavik@gmail.com?subject=ContactMe">
               <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
                 <AiOutlineMail color="#2c2c2f" />
               </div>

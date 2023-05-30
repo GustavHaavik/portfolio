@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import Image from "next/image";
+import Link from "next/link";
 
 function About() {
   var birthday = new Date("2000-12-03");
@@ -50,9 +51,9 @@ function About() {
               </p>
             </div>
           </div>
-          <p className="py-2 text-orange-300 underline cursor-pointer">
-            Se mine projekter, ikke alle er offentlige
-          </p>
+          <Link href="https://github.com/6u5t4v">
+            <p className="py-2 text-orange-300 underline cursor-pointer"></p>
+          </Link>
         </div>
         <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4">
           <Image src="/pb.png" alt="Logo" width={500} height={500} />

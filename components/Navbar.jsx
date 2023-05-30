@@ -20,7 +20,7 @@ export default function Navbar() {
 
         <div>
           <ul className="hidden md:flex text-[#f1f1f1]">
-            <a href="/">
+            <a href="#">
               <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">
                 Hjem
               </li>
@@ -35,7 +35,7 @@ export default function Navbar() {
                 Projekter
               </li>
             </a>
-            <a href="/contact">
+            <a href="mailto:gkhaavik@gmail.com?subject=ContactMe">
               <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#90b3f4]">
                 Kontakt
               </li>
