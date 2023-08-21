@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -33,7 +34,7 @@ export default function Main() {
               </div>{" "}
             </Link>
 
-            <Link target="_blank" href="https://github.com/6u5t4v">
+            <Link target="_blank" href="https://github.com/gustavhaavik">
               <div className="rounded-full shadow-lg p-6 cursor-pointer bg-[#f1f1f1] hover:scale-110 ease-in duration-300">
                 <FaGithub color="#2c2c2f" />
               </div>
