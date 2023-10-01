@@ -27,5 +27,16 @@
     ],
     "github_link": "https://github.com/6u5t4v/dall-e-clone",
     "example_link": "https://dall-e-clone-frontend-one.vercel.app/"
+  },
+  {
+    "title": "Yatzy Web App",
+    "description": "Skole projekt hvor vi skulle lave en web app som kunne spille yatzy. Jeg var ansvarlig for frontend og sørge for at det hele hang sammen",
+    "tags": [
+      "html",
+      "javascript",
+      "css"
+    ],
+    "github_link": "https://github.com/GustavHaavik/YatzyProjekt",
+    "example_link": "https://yatzy-projekt.vercel.app/"
   }
 ]
