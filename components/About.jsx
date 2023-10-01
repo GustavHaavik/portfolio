@@ -37,7 +37,7 @@ function About() {
                 reusability, her har jeg benyttet forskellige frameworks og
                 libraries som React, Next.js, TailwindCSS, Bootstrap, Material
                 UI. Jeg har blandt andet kode i forskellige sprog heraf er nogle
-                af mine ynglings Javascript, Typescript, Flutter, cshtml.
+                af mine ynglings Javascript, Typescript, Flutter og cshtml.
               </p>
             </div>
             <div className="bg-gray-800 border border-gray-700 flex-col p-4 rounded-md">
